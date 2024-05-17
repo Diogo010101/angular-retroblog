@@ -1,0 +1,17 @@
+.line-title{
+    margin: 20px 0 20px 0;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    opacity: 10%;
+}
+
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    width: 100%;
+    font-size: 16vw;
+    text-align: center;
+    font-weight: bolder;
+
+}

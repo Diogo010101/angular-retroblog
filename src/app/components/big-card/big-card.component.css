@@ -1,0 +1,44 @@
+#section-bigcard{
+    margin: 10px 10px 0 10px;
+}
+
+#caixaimg-bigcard{
+    width: 600px;
+
+}
+
+#caixaimg-bigcard img{
+    max-width: 100%;
+}
+
+#data-bigcard{
+    font-size: 12px;
+    
+
+}
+h1{
+    font-size: 1.5em;
+}
+
+p{
+    font-size: 1em;
+    color: darkgray;
+}
+
+h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media screen and (min-width: 990px) {
+    #section-bigcard {
+            max-width: 80%;
+            margin: 10px 10px 0 20px;
+        }
+    #caixaimg-bigcard img {
+            max-width: 100%;
+        }
+
+
+}

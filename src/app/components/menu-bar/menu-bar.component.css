@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 10px 0 10px;
+
+}
+
+ul{
+    display: none;
+
+}
+
+li{
+    list-style: none;
+    margin-left: 20px;
+
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}

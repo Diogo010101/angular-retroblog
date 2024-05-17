@@ -1,0 +1,66 @@
+.linha{
+    border: solid 1px white;
+    opacity: 10%;
+}
+
+#section-smallcard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+#desc-smallcard{
+    width: 60%;
+}
+
+#desc-smallcard p{
+    font-size: 0.7em;
+    color: darkgray;
+}
+
+#desc-smallcard h1{
+    font-size: 1.2em;
+    text-align: left;
+}
+
+
+picture{
+    width: 40%;
+    margin: 0 0 0 5px;
+    align-self: center;
+
+}
+
+img{
+    width: 100%;
+    object-fit: fill;
+}
+
+@media screen and (min-width: 990px){
+    .linha:nth-child(1) {
+            border: solid 1px white;
+            opacity: 10%;
+            display: none;
+
+        }
+
+    #section-smallcard{
+        flex-direction: row-reverse;
+    }
+
+    #desc-smallcard {
+        width: 60%;
+        margin-left: 10px;
+    }
+
+    picture {
+        width: 40%;
+        margin: 0 5px 0 0;
+        align-self: center;
+
+    }
+
+    
+}
