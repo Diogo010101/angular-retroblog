@@ -2,22 +2,27 @@
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
 <header>
-    <picture>
-        <span class="material-symbols-outlined">
-            account_circle
-        </span>
-    </picture>
+    <nav class="container-menu">
+        <picture>
+            <span class="material-symbols-outlined">account_circle</span>
+        </picture>
 
-    <nav>
-        <span class="material-symbols-outlined">menu</span>
-
-        <ul>
-            <li><a href="#">link</a></li>
-            <li><a href="#">link</a></li>
-            <li><a href="#">link</a></li>
-            <li><a href="#">link</a></li>
-            <li><a href="#">link</a></li>
+        <ul class="menu-telagrande">
+            <li><a href="https://github.com/Diogo010101" target="_blank">Git Hub</a></li>
+            <li><a href="https://www.linkedin.com/in/diogoj-dev/" target="_blank">Linkedin</a></li>
+            <li><a href="https://diogojdev.com/" target="_blank">Portifólio </a></li>
         </ul>
+        
+        <nav>
+            <span (click)="mostrarMenu()" class="button-menu material-symbols-outlined">menu</span>
+        </nav>
     </nav>
+
+
+    <ul [ngClass]="ligarDesligar" class="menu_mobile">
+        <li><a href="https://github.com/Diogo010101" target="_blank">Git Hub</a></li>
+        <li><a href="https://www.linkedin.com/in/diogoj-dev/" target="_blank">Linkedin</a></li>
+        <li><a href="https://diogojdev.com/" target="_blank">Portifólio </a></li>
+    </ul>
 
 </header>
