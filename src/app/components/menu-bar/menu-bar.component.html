@@ -4,10 +4,11 @@
 <header>
     <nav class="container-menu">
         <picture>
-            <span class="material-symbols-outlined">account_circle</span>
+            <span class="material-symbols-outlined perfil">account_circle</span>
         </picture>
 
         <ul class="menu-telagrande">
+            <li *ngIf="homeOnoff"><a href="" target="_parent">Home</a></li>
             <li><a href="https://github.com/Diogo010101" target="_blank">Git Hub</a></li>
             <li><a href="https://www.linkedin.com/in/diogoj-dev/" target="_blank">Linkedin</a></li>
             <li><a href="https://diogojdev.com/" target="_blank">Portifólio </a></li>
@@ -20,9 +21,10 @@
 
 
     <ul [ngClass]="ligarDesligar" class="menu_mobile">
-        <li><a href="https://github.com/Diogo010101" target="_blank">Git Hub</a></li>
-        <li><a href="https://www.linkedin.com/in/diogoj-dev/" target="_blank">Linkedin</a></li>
-        <li><a href="https://diogojdev.com/" target="_blank">Portifólio </a></li>
+                <li *ngIf="homeOnoff"><a href="" target="_parent">Home</a></li>
+                <li><a href="https://github.com/Diogo010101" target="_blank">Git Hub</a></li>
+                <li><a href="https://www.linkedin.com/in/diogoj-dev/" target="_blank">Linkedin</a></li>
+                <li><a href="https://diogojdev.com/" target="_blank">Portifólio </a></li>
     </ul>
 
 </header>

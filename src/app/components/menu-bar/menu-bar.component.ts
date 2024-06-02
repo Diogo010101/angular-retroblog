@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-menu-bar',
@@ -10,10 +10,17 @@ import { Component } from '@angular/core';
 })
 export class MenuBarComponent {
   ligarDesligar: string = "menu-off";
+  @Input()
+  homeOnoff: string = "";
+
+
+
 
   constructor(){
 
   }
+
+
 
   mostrarMenu(){
     if (this.ligarDesligar === "menu-off"){

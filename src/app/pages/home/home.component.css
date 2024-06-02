@@ -1,0 +1,74 @@
+#section-morecards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center;
+    align-content: flex-start;
+    background-color: white;
+
+}
+
+app-app-smallmorecard {
+    width: 50%;
+    color: black;
+
+}
+
+
+@media screen and (min-width: 900px) {
+    .home{
+        background-color: black;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 0;
+    }
+    #section-maincards {
+        display: flex;
+        flex-direction: row;
+        margin-top: 60px;
+        justify-content: center;
+        align-content: flex-start;
+    }
+
+
+    .container-bigcard {
+        max-width: 50%;
+    }
+
+
+    .linha-smallcard {
+        display: block;
+        border: 1px solid white;
+        opacity: 10%;
+        margin-left: 10px;
+    }
+
+    .container-appsmallcards {
+        max-width: 50%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    #section-morecards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        justify-content: center;
+        align-content: flex-start;
+        background-color: white;
+
+    }
+
+    app-app-smallmorecard {
+        width: 25%;
+        color: black;
+
+    }
+
+
+
+}

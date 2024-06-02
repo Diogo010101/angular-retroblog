@@ -3,6 +3,6 @@
         <img src="{{photoCover}}" alt="Imagem de uma motocicleta retro">
     </picture>
     <p id="data-bigcard">{{dataPost}}</p>
-    <h1><a href="#">{{cardTitle}}</a></h1>
-    <p>{{cardDescription}}</p>
+    <h1><a [routerLink]="['content',id]">{{cardTitle}}</a></h1>
+    <p><a [routerLink]="['content',id]">{{cardDescription}}</a></p>
 </section>

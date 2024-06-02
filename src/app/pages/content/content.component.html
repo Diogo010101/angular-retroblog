@@ -1,0 +1,32 @@
+<div class="main-content">
+    <app-black-pagepost
+        titlePost="{{ titlePost }}"
+        descPost="{{descPost}}"
+        dataPost="{{dataPost}}" authorPost="{{authorPost}}" categoryPost="{{categoryPost}}">
+    </app-black-pagepost>
+    
+    <app-white-pagepost 
+        titlePost="{{introTitle}}" 
+        descPost="{{introDescription}}"
+        imgPost="{{photoIntro}}">
+    </app-white-pagepost>
+
+    <app-white-pagepost 
+        titlePost="{{secondTitle}}" 
+        descPost="{{addSecondDescription}}"
+        imgPost="{{addSecondPhoto}}">
+    </app-white-pagepost>
+
+
+    <div class="back-tohome"><a  [routerLink]="['']">voltar</a></div>
+
+    
+    
+    <section class="backtotop"></section>   
+</div>
+
+
+
+
+
+

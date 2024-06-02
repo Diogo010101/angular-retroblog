@@ -1,9 +1,9 @@
-.linha{
+.linha {
     border: solid 1px white;
     opacity: 10%;
 }
 
-#section-smallcard{
+#section-smallcard {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -11,52 +11,53 @@
     margin: 10px;
 }
 
-#desc-smallcard{
+#desc-smallcard {
     width: 60%;
 }
 
-#desc-smallcard p{
+#desc-smallcard p {
     font-size: 0.7em;
     color: darkgray;
 }
-#desc-smallcard h1{
+
+#desc-smallcard h1 {
     line-height: 16px;
     margin-top: 10px;
 }
 
 
-#desc-smallcard h1 a{
+#desc-smallcard h1 a {
     font-size: 16px;
     text-align: left;
     text-decoration: none;
     color: white;
 
-    
-    
+
+
 }
 
 
-picture{
+picture {
     width: 40%;
     margin: 0 0 0 5px;
     align-self: center;
 
 }
 
-img{
+img {
     width: 100%;
     object-fit: fill;
 }
 
-@media screen and (min-width: 990px){
+@media screen and (min-width: 990px) {
     .linha:nth-child(1) {
-            border: solid 1px white;
-            opacity: 10%;
-            display: none;
+        border: solid 1px white;
+        opacity: 10%;
+        display: none;
 
-        }
+    }
 
-    #section-smallcard{
+    #section-smallcard {
         flex-direction: row-reverse;
         align-items: baseline;
     }
@@ -69,12 +70,13 @@ img{
         margin-top: 0px;
 
     }
+
     #desc-smallcard h1 {
         line-height: 20px;
 
     }
 
-    #desc-smallcard h1 a{
+    #desc-smallcard h1 a {
         font-size: 0.7em;
         text-align: left;
         text-decoration: none;
@@ -90,5 +92,5 @@ img{
 
     }
 
-    
+
 }

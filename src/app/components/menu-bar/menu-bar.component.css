@@ -1,15 +1,13 @@
-header{
-    
-
+header {
     margin: 30px 0 0 0px;
 
 }
 
-.menu-telagrande{
+.menu-telagrande {
     display: none;
 }
 
-.container-menu{
+.container-menu {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -18,11 +16,11 @@ header{
     margin-left: 10px;
 }
 
-.button-menu{
+.button-menu {
     cursor: pointer;
 }
 
-.menu_mobile{
+.menu_mobile {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -31,7 +29,7 @@ header{
 }
 
 
-.menu_mobile li{
+.menu_mobile li {
     list-style: none;
     background-color: rgb(26, 25, 25);
     width: 100%;
@@ -41,38 +39,39 @@ header{
 
 }
 
-.menu_mobile li:hover{
+.menu_mobile li:hover {
     background-color: rgb(59, 59, 59);
 }
 
-.menu_mobile li a{
+.menu_mobile li a {
     text-decoration: none;
     color: darkgray;
     margin-right: 10px;
 }
 
-.menu_mobile li a:hover{
+.menu_mobile li a:hover {
     color: white;
     transition: all 0.5s;
 }
 
-.menu-off{
+.menu-off {
     display: none;
 
 }
 
-.menu-on{
+.menu-on {
     display: block;
 }
 
 @media screen and (min-width: 680px) {
-    .menu-telagrande{
+    .menu-telagrande {
         display: flex;
         flex-direction: row;
 
-        
+
     }
-    .menu-telagrande li{
+
+    .menu-telagrande li {
         list-style: none;
         padding: 10px;
     }
@@ -83,16 +82,17 @@ header{
 
     }
 
-    .menu-telagrande li a:hover{
+    .menu-telagrande li a:hover {
         color: white;
         transition: all 0.5s;
     }
-    .menu_mobile{
+
+    .menu_mobile {
         display: none;
     }
 
     .button-menu {
         display: none;
     }
-    
+
 }
