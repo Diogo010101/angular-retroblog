@@ -158,7 +158,7 @@ export const dataFake = [
 
         "addDescription": "Os fãs de Jujutsu Kaisen terão que esperar até o dia 16 de junho para saber se a página vazada é verdadeira ou falsa. No entanto, a possibilidade do retorno de Gojo já é suficiente para deixar todos ansiosos pelo lançamento do Volume 26 do mangá.",
 
-        "addPhoto": "https://animenew.com.br/wp-content/uploads/2023/07/Gege-Akutami-afirma-que-jujutsu-kaisen-esta-longe-de-acabar.jpg",
+        "addPhoto": "https://s2-techtudo.glbimg.com/r9HNOedkCiTmgyZorpYygCoNjjI=/0x0:1920x1080/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/d/p/E4nzNXQRWXwsjRlH94Mg/jujutsu-kaisen-1.jpg",
     },
 
     {
@@ -211,7 +211,7 @@ export const dataFake = [
 
         "addDescription": "Com o corte de pessoal, a Pixar pretende voltar a dar mais atenção à produção de longas-metragens, que sempre foram a sua principal força. O estúdio tem diversos projetos em desenvolvimento, incluindo sequências de Toy Story e Os Incríveis, além de novos filmes originais.",
 
-        "addPhoto": "https://podpop.com.br/PodPOP/wp-content/uploads/2018/06/Os-Incr%C3%ADveis-2-Brad-Bird-Disney-Brasil-Pixar-Filme-de-anima%C3%A7%C3%A3o-Desenho-da-Disney-Desenho-da-Pixar-Os-Incriv%C3%A9is-Zez%C3%A9-anima%C3%A7%C3%A3o-da-pixar-Oscar-16.jpg",
+        "addPhoto": "https://imageio.forbes.com/specials-images/imageserve/660c48bfa6e0912838b18915/Disney-Pixar-movie--Inside-Out-2--/0x0.jpg?format=jpg&crop=2204,1210,x491,y0,safe&width=960",
     },
     
 ]
